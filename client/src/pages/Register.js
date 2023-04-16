@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Input,message } from "antd";
-import '../style/RegisterStyle.css'
+// import '../style/RegisterStyle.css'
 import { Link , useNavigate} from 'react-router-dom'
 import axios from 'axios'
 import { useDispatch } from 'react-redux'
