@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/RegisterStyle.css";
+import "../style/LoginStyle.css"
 import { Form, Input, message } from "antd";
 import { useDispatch } from "react-redux";
 import { showLoading, hideLoading } from "../redux/features/alertSlice";
@@ -63,12 +63,14 @@ const Login = () => {
           <Form className="login-form" onFinish={onfinishHandler}>
             <div className="login-form-content">
               <div className="form-itema">
-                <Form.Item label="Email" name="email">
+                <h6>Email</h6>
+                <Form.Item label="" name="email">
                   <Input type="email" id="email" required />
                 </Form.Item>
               </div>
               <div className="form-itema">
-                <Form.Item label="Password" name="password">
+                <h6>Password</h6>
+                <Form.Item label="" name="password">
                   <Input type="password" id="password" required />
                 </Form.Item>
               </div>
