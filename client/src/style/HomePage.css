@@ -1,0 +1,24 @@
+/* For screens larger than 576px */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .card-columns {
+    column-count: 3;
+  }
+  
+  /* For screens between 576px and 768px */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .card-columns {
+      column-count: 2;
+    }
+  }
+  
+  /* For screens smaller than 576px */
+  @media (max-width: 575px) {
+    .card-columns {
+      column-count: 1;
+    }
+  }
+  

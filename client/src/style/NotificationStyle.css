@@ -1,0 +1,68 @@
+/* CSS for Notification Page */
+
+/* Styles for the header */
+.p-3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styles for the tabs */
+  .ant-tabs {
+    margin-top: 20px;
+  }
+  
+  /* Styles for the tab panes */
+  .card {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  /* Styles for the "Mark All Read" and "Delete All Read" buttons */
+  .d-flex {
+    margin-bottom: 20px;
+  }
+  
+  .p-2 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Styles for tablet */
+    .p-3 {
+      font-size: 20px;
+    }
+    .card-text {
+      font-size: 14px;
+    }
+    .p-2 {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for phone */
+    .p-3 {
+      font-size: 16px;
+    }
+    .card-text {
+      font-size: 12px;
+    }
+    .p-2 {
+      font-size: 10px;
+    }
+  }
+  

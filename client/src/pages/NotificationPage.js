@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import '../style/NotificationStyle.css'
 import { message, Tabs } from "antd";
 import { useSelector, useDispatch } from "react-redux";
 import { showLoading, hideLoading } from "../redux/features/alertSlice";

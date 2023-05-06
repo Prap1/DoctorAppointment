@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/DoctorList.css";
 import { useNavigate } from "react-router-dom";
 
 const DoctorList = ({ doctor }) => {

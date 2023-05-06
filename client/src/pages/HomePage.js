@@ -1,4 +1,5 @@
 import React, { useEffect,useState } from "react";
+import "../style/HomePage.css"; 
 import axios from "axios";
 import Layout from "./../components/Layout";
 import { Row } from "antd";
